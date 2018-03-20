@@ -148,6 +148,7 @@ function endGame() {
   //var child=document.getElementsByClassName("rock")
   //child.parentNode.removeChild(child)
 
+  alert("YOU LOSE!")
 
   for (let i=0;i<ROCKS.length;i++){
     var holder=document.getElementsByClassName('rock')
@@ -165,7 +166,7 @@ function endGame() {
 
 
   window.removeEventListener('keydown',moveDodger)
-  alert("YOU LOSE!")
+  //alert("YOU LOSE!")
 
 }
 
