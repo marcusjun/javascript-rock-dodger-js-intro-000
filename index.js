@@ -212,7 +212,7 @@ function moveDodgerLeft() {
      //DODGER.style.left=`${left-=4}px`
      if (left>0){
        DODGER.style.left=`${left-=4}px`
-       //window.requestAnimationFrame(step)
+       window.requestAnimationFrame(step) //if you comment out this line, the dodger will move pixel by pixel, rather than sliding accross the screen
      }
    }
    window.requestAnimationFrame(step)
